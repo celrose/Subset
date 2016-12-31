@@ -4,8 +4,10 @@
 using namespace std;
 
 void printSubset(vector<int> &v) {
+  cout << "{ ";
   for(int i = 0; i < v.size(); i++)
     cout << v[i] << " ";
+  cout << "}";
   cout << endl;
 }
 
